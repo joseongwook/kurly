@@ -16,8 +16,8 @@ import SpectialItem from './pages/SpectialItem';
 function App() {
   return (
     <>
-    <BrowserRouter>
-      <Header/>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <Header/> 
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/login" element={<Login />} />
