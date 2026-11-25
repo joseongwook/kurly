@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/kurly/static/css/main.7329791b.css",
+    "main.js": "/kurly/static/js/main.10642353.js",
+    "static/media/banner_img01.png": "/kurly/static/media/banner_img01.9cd276bedb7aa1efe458.png",
+    "static/media/mainslide_img01.jpg": "/kurly/static/media/mainslide_img01.80af86600dee5cd91b0f.jpg",
+    "static/media/mainslide_img03.jpg": "/kurly/static/media/mainslide_img03.3101d1179020820ca0bf.jpg",
+    "static/media/mainslide_img02.jpg": "/kurly/static/media/mainslide_img02.42302de2e0ef23f7b78f.jpg",
+    "static/media/mainslide_img04.jpg": "/kurly/static/media/mainslide_img04.10cc50aa12575c55fd9c.jpg",
+    "static/media/rangk_img02.jpeg": "/kurly/static/media/rangk_img02.cbc49c11c01323f4eb1f.jpeg",
+    "static/media/rangk_img04.jpeg": "/kurly/static/media/rangk_img04.2dbff31a123dd1ec79c9.jpeg",
+    "static/media/rangk_img01.jpeg": "/kurly/static/media/rangk_img01.9ea9afd0bfb833b25dfb.jpeg",
+    "static/media/rangk_img05.jpeg": "/kurly/static/media/rangk_img05.96a059f95809919de6ef.jpeg",
+    "static/media/recommand_img03.jpg": "/kurly/static/media/recommand_img03.2b39b9e01f9634ca04b0.jpg",
+    "static/media/recommand_img04.jpg": "/kurly/static/media/recommand_img04.9cb2c2207df5b37a0106.jpg",
+    "static/media/rangk_img03.jpeg": "/kurly/static/media/rangk_img03.5a3d8c81dd04b13af727.jpeg",
+    "static/media/recommand_img02.jpg": "/kurly/static/media/recommand_img02.79efb0f742fb8ecd4829.jpg",
+    "static/media/recommand_img01.jpg": "/kurly/static/media/recommand_img01.3531a82b5505339b1818.jpg",
+    "static/media/logo.svg": "/kurly/static/media/logo.821ca24b957a704c159266b88b63f6c1.svg",
+    "index.html": "/kurly/index.html",
+    "main.7329791b.css.map": "/kurly/static/css/main.7329791b.css.map",
+    "main.10642353.js.map": "/kurly/static/js/main.10642353.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7329791b.css",
+    "static/js/main.10642353.js"
+  ]
+}

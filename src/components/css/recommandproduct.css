@@ -1,0 +1,96 @@
+.button {
+  margin: 0 auto;
+  padding: 5px 40px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 4px;
+}
+
+.RecommandProduct {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+.RecommandProduct .sc_title {
+  font-size: 28px;
+  text-align: center;
+  color: #333333;
+  line-height: 2;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.RecommandProduct .sc_info_text {
+  font-size: 16px;
+  text-align: center;
+  color: #cccccc;
+  margin-bottom: 40px;
+}
+.RecommandProduct .recommand_wrap .recommand_list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.RecommandProduct .recommand_wrap li {
+  width: 24%;
+  padding-bottom: 20px;
+  font-size: 14px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.RecommandProduct .recommand_wrap li p {
+  line-height: 1.3;
+}
+.RecommandProduct .recommand_wrap li .img_box {
+  margin-bottom: 10px;
+}
+.RecommandProduct .recommand_wrap li .img_box img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.RecommandProduct .recommand_wrap li .text_box {
+  padding: 14px 0px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+  min-height: 60px;
+}
+.RecommandProduct .recommand_wrap li .text_box .cost {
+  color: #cccccc;
+  text-decoration: line-through;
+  margin-top: 10px;
+}
+.RecommandProduct .recommand_wrap li .text_box .price {
+  font-weight: 700;
+}
+.RecommandProduct .recommand_wrap li .text_box .price strong {
+  color: #ec992c;
+}
+.RecommandProduct .recommand_wrap li .text_box .count {
+  font-size: 14px;
+  color: #cccccc;
+  margin-top: 8px;
+}
+.RecommandProduct .recommand_wrap li .text_box .balloon_icon {
+  font-size: 13px;
+  margin-right: 5px;
+}
+.RecommandProduct .recommand_wrap li .cart_btn {
+  width: 100%;
+}
+.RecommandProduct .recommand_wrap .more_btn {
+  width: 80%;
+  max-width: 500px;
+  line-height: 40px;
+}
+.RecommandProduct .recommand_wrap .more_btn .right_arrow_icon {
+  width: 8px !important;
+}/*# sourceMappingURL=recommandproduct.css.map */

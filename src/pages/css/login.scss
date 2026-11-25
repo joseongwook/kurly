@@ -1,0 +1,97 @@
+@charset 'utf-8';
+// 변수선언
+$baseFont:'Noto Sans KR';
+$baseFontSize:16px;
+$mainColor:#006eff;
+$txtColor_bk:#333333;
+$txtColor_g:#949494;
+$txtColor_Lg:#cccccc;
+$txtColor_wh:#ffffff;
+$maxWidth:1200px;
+$auto:0 auto;
+$bgColor_pu:#5f0080;
+$bgColor_gr:#03c75a;
+$bgColor_yl:#fee500;
+
+@mixin btnBorder{
+  border: 1px solid $txtColor_Lg; 
+  border-radius: 4px;
+  padding: 0px 10px; 
+  width: 100%;
+  height: 56px;
+  color: $txtColor_wh;
+}
+
+.login_wrap{
+  width: $maxWidth; 
+  margin: $auto;
+  h2{
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .form_wrap{
+    max-width: 350px;
+    margin: $auto;
+    .login_input_wrap{
+      margin-bottom: 10px;
+    }
+    input{
+      width:100%;
+      height: 54px;
+      padding: 5px 10px;
+      border-radius: 4px;
+      border: 1px solid $txtColor_Lg; 
+      font-size: 14px;
+    }
+    .login_area{
+      margin-bottom: 15px;
+    }
+    .find_area{
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 10px;
+      font-size: 12px;
+      margin-bottom: 20px;
+      .line{
+        display: inline-block; 
+        width: 1px; 
+        height: 12px; 
+        background: $txtColor_bk;
+      }
+    }
+    .button_area{
+      padding-bottom: 40px;
+      .btn{
+        @include btnBorder();
+      }
+      .login_btn{
+        margin-bottom: 14px;  background: $bgColor_pu;
+      }
+      .join_btn{
+        background: $txtColor_wh; color: #5f0080; border: 1px solid $bgColor_pu;
+      }
+      .naver_btn{
+        background-color: $bgColor_gr;
+        color: $txtColor_wh; 
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 14px;
+        border: none;
+      }
+      .kakao_btn{
+        background-color: $bgColor_yl;
+        color: $txtColor_bk;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: none;
+      }
+    }
+  }
+}

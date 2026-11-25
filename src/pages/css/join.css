@@ -1,0 +1,102 @@
+.importance {
+  color: #ee1c1c;
+}
+
+.join_wrap {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.join_wrap .txt_p {
+  text-align: right;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+.join_wrap h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.join_wrap .form_wrap {
+  width: 650px;
+  margin: 0 auto;
+}
+.join_wrap .form_area .form_box.top {
+  border-top: 2px solid #000000;
+  padding-bottom: 40px;
+}
+.join_wrap .form_area .form_box.top .form_box_item {
+  display: flex;
+  width: 100%;
+  padding: 10px 22px;
+}
+.join_wrap .form_area .form_box.top .form_box_item .left {
+  width: 140px;
+  padding-top: 13px;
+}
+.join_wrap .form_area .form_box.top .form_box_item .right {
+  width: 100%;
+  max-width: 310px;
+  height: 45px;
+  line-height: 43px;
+  border: 1px solid #cccccc;
+}
+.join_wrap .form_area .form_box.top .form_box_item .right input {
+  padding: 0 10px 0 15px;
+}
+.join_wrap .form_area .form_box.top .form_box_item.address {
+  margin-bottom: 30px;
+}
+.join_wrap .form_area .form_box.top .form_box_item.gender .right {
+  border: none;
+}
+.join_wrap .form_area .form_box.top .form_box_item.gender .right label {
+  display: inline-block;
+  margin: 0 15px 0px 5px;
+}
+.join_wrap .form_area .form_box.top .form_box_item.birth .right {
+  display: flex;
+}
+.join_wrap .form_area .form_box.top .form_box_item.birth .right .item {
+  flex: 1;
+  min-width: 0;
+}
+.join_wrap .form_area .form_box.top .form_box_item.birth .right .item input {
+  width: 100%;
+  text-align: center;
+}
+.join_wrap .form_area .form_box.top .form_box_item.birth .right span {
+  flex-shrink: 0;
+}
+.join_wrap .form_area .form_box.top .form_box_item.recommand .right {
+  display: flex;
+  gap: 5px;
+  border: none;
+}
+.join_wrap .form_area .form_box.bottom {
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #cccccc;
+  padding: 10px 22px;
+}
+.join_wrap .form_area .form_box.bottom .form_box_item {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+}
+.join_wrap .form_area .form_box.bottom .form_box_item > .txt_p {
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+}
+.join_wrap .form_area .form_box.bottom .form_box_item .right .right_item {
+  display: flex;
+  gap: 10px;
+}
+.join_wrap .form_area .form_box.bottom .form_box_item .right .right_item .check_item input {
+  margin-right: 5px;
+}
+.join_wrap .form_area .form_box.bottom .form_box_item.allagree {
+  border-bottom: 1px solid #cccccc;
+}
+.join_wrap .join_btn {
+  margin-top: 50px;
+}/*# sourceMappingURL=join.css.map */
