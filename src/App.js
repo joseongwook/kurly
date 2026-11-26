@@ -12,6 +12,7 @@ import FashionItem from './pages/FashionItem';
 import LivingItem from './pages/LivingItem';
 import NewItem from './pages/NewItem';
 import SpectialItem from './pages/SpectialItem';
+import Notfound from './pages/Notfound';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/sub/living" element={<LivingItem />} />
           <Route path="/sub/newitem" element={<NewItem />} />
           <Route path="/sub/spectialitem" element={<SpectialItem />} />
+          <Route path="/*" element={<Notfound />} />
         </Routes>
       <Footer/>
     </BrowserRouter>

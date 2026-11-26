@@ -1,10 +1,17 @@
 .login_wrap {
   width: 1200px;
   margin: 0 auto;
+  padding: 40px 0 40px;
 }
 .login_wrap h2 {
   text-align: center;
   margin-bottom: 24px;
+}
+.login_wrap legend {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 600;
 }
 .login_wrap .form_wrap {
   max-width: 350px;

@@ -19,196 +19,198 @@ img{display: block;}
 .button{margin:0 auto; padding: 5px 40px;cursor: pointer; text-align: center;border: 1px solid #dddddd; background: #ffffff; display: flex; justify-content: center; align-items: center; gap: 5px; border-radius: 4px;}
 
 // 헤더 영역
-.lnb_list {
-	li {
-		>a {
-			color: $txtColor_bk;
-			display: inline-block;
+header{box-shadow: 2px 2px 6px .4px #cccccc;
+	.lnb_list {
+		li {
+			>a {
+				color: $txtColor_bk;
+				display: inline-block;
+			}
+			line-height: 40px;
 		}
-		line-height: 40px;
-	}
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	gap: 14px;
-	font-size: 12px;
-	li.line {
-		width: 1px;
-		height: 12px;
-		background: $txtColor_g;
-	}
-	.down_icon {
-		vertical-align: 2px;
-	}
-}
-.etc_list {
-	li {
-		>a {
-			color: $txtColor_bk;
-			display: inline-block;
-		}
-	}
-}
-.kurly_list {
-	li {
-		>a {
-			color: $txtColor_bk;
-			display: inline-block;
-		}
-		line-height: 40px;
-	}
-}
-.gnb_list02 {
-	li {
-		>a {
-			color: $txtColor_bk;
-			display: inline-block;
-		}
-		line-height: 40px;
-	}
-}
-.top_banner_wrap {
-	background: #5f0080;
-}
-.top_banner {
-	width: $maxWidth;
-	margin: $auto;
-	height: 40px;
-	line-height: 40px;
-	text-align: center;
-	color: #ffffff;
-	position: relative;
-	.txt_p {
-		font-size: 14px;
-		span {
-			font-weight: 700;
-		}
-	}
-}
-.close_btn {
-	position: absolute;
-	right: 0px;
-	top: 0;
-}
-.bottom_wrap {
-	padding: 10px 0;
-}
-.lnb_wrap {
-	width: $maxWidth;
-	margin: 0 auto;
-	font-size: 16px;
-	margin-bottom: 10px;
-}
-.search_wrap {
-	width: $maxWidth;
-	margin: 0 auto;
-	font-size: 16px;
-	margin-bottom: 20px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	.logo_area {
 		display: flex;
+		justify-content: flex-end;
 		align-items: center;
-		gap: 20px;
-		.kurly_list {
-			display: flex;
-			align-items: center;
-			gap: 20px;
-			li {
-				font-size: 18px;
-				position: relative;
-				color: $txtColor_g;
-				a {
-					&:hover {
-						color: #5f0080;
-					}
-				}
-				&::after {
-					content: '';
-					display: inline-block;
-					width: 1px;
-					height: 17px;
-					position: absolute;
-					top: 13px;
-					left: 75px;
-					background: $txtColor_g;
-				}
-				&:last-child {
-					&::after {
-						content: none;
-					}
-				}
+		gap: 14px;
+		font-size: 12px;
+		li.line {
+			width: 1px;
+			height: 12px;
+			background: $txtColor_g;
+		}
+		.down_icon {
+			vertical-align: 2px;
+		}
+	}
+	.etc_list {
+		li {
+			>a {
+				color: $txtColor_bk;
+				display: inline-block;
 			}
 		}
 	}
-	.search_area {
-		display: flex;
-		justify-content: space-around;
-		width: 400px;
-		height: 48px;
-		line-height: 44px;
-		border: 1px solid #5f0080;
-		border-radius: 4px;
-		input[type=text] {
-			width: 300px;
-		}
-	}
-	.etc_area {
-		.etc_list {
-			display: flex;
-			align-items: center;
-			gap: 40px;
-		}
-	}
-}
-.gnb_wrap {
-	width: $maxWidth;
-	margin: 0 auto;
-	font-size: 16px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	.gnb_list01 {
-		display: flex;
-		gap: 10px;
+	.kurly_list {
 		li {
-			cursor: pointer;
-		}
-		.menu_icon {
-			margin-right: 10px;
+			>a {
+				color: $txtColor_bk;
+				display: inline-block;
+			}
+			line-height: 40px;
 		}
 	}
 	.gnb_list02 {
-		display: flex;
-		gap: 75px;
 		li {
 			>a {
-				transition: .2s;
-				&:hover {
-					color: #5f0080;
-					text-decoration: underline;
-					text-underline-offset: 8px;
-				}
+				color: $txtColor_bk;
+				display: inline-block;
+			}
+			line-height: 40px;
+		}
+	}
+	.top_banner_wrap {
+		background: #5f0080;
+	}
+	.top_banner {
+		width: $maxWidth;
+		margin: $auto;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		color: #ffffff;
+		position: relative;
+		.txt_p {
+			font-size: 14px;
+			span {
+				font-weight: 700;
 			}
 		}
 	}
-	.delivery {
-		display: inline-block;
-		padding: 7px 12px;
-		border: 1px solid $txtColor_Lg;
-		border-radius: 20px;
-		font-size: 12px;
-		strong {
-			font-weight: 400;
+	.close_btn {
+		position: absolute;
+		right: 0px;
+		top: 0;
+	}
+	.bottom_wrap {
+		padding: 10px 0;
+	}
+	.lnb_wrap {
+		width: $maxWidth;
+		margin: 0 auto;
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	.search_wrap {
+		width: $maxWidth;
+		margin: 0 auto;
+		font-size: 16px;
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.logo_area {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+			.kurly_list {
+				display: flex;
+				align-items: center;
+				gap: 20px;
+				li {
+					font-size: 18px;
+					position: relative;
+					color: $txtColor_g;
+					a {
+						&:hover {
+							color: #5f0080;
+						}
+					}
+					&::after {
+						content: '';
+						display: inline-block;
+						width: 1px;
+						height: 17px;
+						position: absolute;
+						top: 13px;
+						left: 75px;
+						background: $txtColor_g;
+					}
+					&:last-child {
+						&::after {
+							content: none;
+						}
+					}
+				}
+			}
+		}
+		.search_area {
+			display: flex;
+			justify-content: space-around;
+			width: 400px;
+			height: 48px;
+			line-height: 44px;
+			border: 1px solid #5f0080;
+			border-radius: 4px;
+			input[type=text] {
+				width: 300px;
+			}
+		}
+		.etc_area {
+			.etc_list {
+				display: flex;
+				align-items: center;
+				gap: 40px;
+			}
 		}
 	}
-}
-.active {
-	color: #5f0080 !important;
-}
-.serach_icon {
-	color: #5f0080 !important;
+	.gnb_wrap {
+		width: $maxWidth;
+		margin: 0 auto;
+		font-size: 16px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.gnb_list01 {
+			display: flex;
+			gap: 10px;
+			li {
+				cursor: pointer;
+			}
+			.menu_icon {
+				margin-right: 10px;
+			}
+		}
+		.gnb_list02 {
+			display: flex;
+			gap: 75px;
+			li {
+				>a {
+					transition: .2s;
+					&:hover {
+						color: #5f0080;
+						text-decoration: underline;
+						text-underline-offset: 8px;
+					}
+				}
+			}
+		}
+		.delivery {
+			display: inline-block;
+			padding: 7px 12px;
+			border: 1px solid $txtColor_Lg;
+			border-radius: 20px;
+			font-size: 12px;
+			strong {
+				font-weight: 400;
+			}
+		}
+	}
+	.active {
+		color: #5f0080 !important;
+	}
+	.serach_icon {
+		color: #5f0080 !important;
+	}
 }
 // 푸터 영역 
 footer{

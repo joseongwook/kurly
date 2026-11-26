@@ -31,55 +31,53 @@ img {
   border-radius: 4px;
 }
 
-.lnb_list li > a {
+header {
+  box-shadow: 2px 2px 6px 0.4px #cccccc;
+}
+header .lnb_list li > a {
   color: #333333;
   display: inline-block;
 }
-.lnb_list li {
+header .lnb_list li {
   line-height: 40px;
 }
-.lnb_list {
+header .lnb_list {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 14px;
   font-size: 12px;
 }
-.lnb_list li.line {
+header .lnb_list li.line {
   width: 1px;
   height: 12px;
   background: #949494;
 }
-.lnb_list .down_icon {
+header .lnb_list .down_icon {
   vertical-align: 2px;
 }
-
-.etc_list li > a {
+header .etc_list li > a {
   color: #333333;
   display: inline-block;
 }
-
-.kurly_list li > a {
+header .kurly_list li > a {
   color: #333333;
   display: inline-block;
 }
-.kurly_list li {
+header .kurly_list li {
   line-height: 40px;
 }
-
-.gnb_list02 li > a {
+header .gnb_list02 li > a {
   color: #333333;
   display: inline-block;
 }
-.gnb_list02 li {
+header .gnb_list02 li {
   line-height: 40px;
 }
-
-.top_banner_wrap {
+header .top_banner_wrap {
   background: #5f0080;
 }
-
-.top_banner {
+header .top_banner {
   width: 1200px;
   margin: 0 auto;
   height: 40px;
@@ -88,31 +86,27 @@ img {
   color: #ffffff;
   position: relative;
 }
-.top_banner .txt_p {
+header .top_banner .txt_p {
   font-size: 14px;
 }
-.top_banner .txt_p span {
+header .top_banner .txt_p span {
   font-weight: 700;
 }
-
-.close_btn {
+header .close_btn {
   position: absolute;
   right: 0px;
   top: 0;
 }
-
-.bottom_wrap {
+header .bottom_wrap {
   padding: 10px 0;
 }
-
-.lnb_wrap {
+header .lnb_wrap {
   width: 1200px;
   margin: 0 auto;
   font-size: 16px;
   margin-bottom: 10px;
 }
-
-.search_wrap {
+header .search_wrap {
   width: 1200px;
   margin: 0 auto;
   font-size: 16px;
@@ -121,25 +115,25 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-.search_wrap .logo_area {
+header .search_wrap .logo_area {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.search_wrap .logo_area .kurly_list {
+header .search_wrap .logo_area .kurly_list {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.search_wrap .logo_area .kurly_list li {
+header .search_wrap .logo_area .kurly_list li {
   font-size: 18px;
   position: relative;
   color: #949494;
 }
-.search_wrap .logo_area .kurly_list li a:hover {
+header .search_wrap .logo_area .kurly_list li a:hover {
   color: #5f0080;
 }
-.search_wrap .logo_area .kurly_list li::after {
+header .search_wrap .logo_area .kurly_list li::after {
   content: "";
   display: inline-block;
   width: 1px;
@@ -149,10 +143,10 @@ img {
   left: 75px;
   background: #949494;
 }
-.search_wrap .logo_area .kurly_list li:last-child::after {
+header .search_wrap .logo_area .kurly_list li:last-child::after {
   content: none;
 }
-.search_wrap .search_area {
+header .search_wrap .search_area {
   display: flex;
   justify-content: space-around;
   width: 400px;
@@ -161,16 +155,15 @@ img {
   border: 1px solid #5f0080;
   border-radius: 4px;
 }
-.search_wrap .search_area input[type=text] {
+header .search_wrap .search_area input[type=text] {
   width: 300px;
 }
-.search_wrap .etc_area .etc_list {
+header .search_wrap .etc_area .etc_list {
   display: flex;
   align-items: center;
   gap: 40px;
 }
-
-.gnb_wrap {
+header .gnb_wrap {
   width: 1200px;
   margin: 0 auto;
   font-size: 16px;
@@ -178,44 +171,42 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-.gnb_wrap .gnb_list01 {
+header .gnb_wrap .gnb_list01 {
   display: flex;
   gap: 10px;
 }
-.gnb_wrap .gnb_list01 li {
+header .gnb_wrap .gnb_list01 li {
   cursor: pointer;
 }
-.gnb_wrap .gnb_list01 .menu_icon {
+header .gnb_wrap .gnb_list01 .menu_icon {
   margin-right: 10px;
 }
-.gnb_wrap .gnb_list02 {
+header .gnb_wrap .gnb_list02 {
   display: flex;
   gap: 75px;
 }
-.gnb_wrap .gnb_list02 li > a {
+header .gnb_wrap .gnb_list02 li > a {
   transition: 0.2s;
 }
-.gnb_wrap .gnb_list02 li > a:hover {
+header .gnb_wrap .gnb_list02 li > a:hover {
   color: #5f0080;
   text-decoration: underline;
   text-underline-offset: 8px;
 }
-.gnb_wrap .delivery {
+header .gnb_wrap .delivery {
   display: inline-block;
   padding: 7px 12px;
   border: 1px solid #cccccc;
   border-radius: 20px;
   font-size: 12px;
 }
-.gnb_wrap .delivery strong {
+header .gnb_wrap .delivery strong {
   font-weight: 400;
 }
-
-.active {
+header .active {
   color: #5f0080 !important;
 }
-
-.serach_icon {
+header .serach_icon {
   color: #5f0080 !important;
 }
 

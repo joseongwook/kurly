@@ -54,6 +54,7 @@ table {
   border-spacing: 0;
 }
 
+fieldset{border: none;}
 address, em, i {
   font-style: normal;
 }/*# sourceMappingURL=reset.css.map */
