@@ -11,4 +11,12 @@ $txtColor_wh:#ffffff;
 $maxWidth:1200px;
 $auto:0 auto;
 
-
+.wrap{
+  width: $maxWidth; 
+  margin:$auto;
+  padding: 150px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
